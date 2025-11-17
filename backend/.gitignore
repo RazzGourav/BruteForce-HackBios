@@ -1,0 +1,73 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+.coverage
+.pytest_cache/
+htmlcov/
+coverage.xml
+
+# Pyenv
+.python-version
+
+# Environment variables
+.env
+.env.*.local
+.env.local
+
+# Logs
+logs/
+*.log
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Secrets and keys
+*.pem
+*.key
+*.crt
+
+# Database
+*.sqlite3
+*.sqlite
+*.db
+
+# Docker
+docker-compose.override.yml
+
+# Node (optional - ignore if repo contains frontend/tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+dist/
+build/
+

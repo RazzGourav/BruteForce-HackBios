@@ -1,0 +1,14 @@
+
+# Core data / ML
+numpy>=1.24
+pandas>=1.5
+scikit-learn>=1.2
+
+# Web API
+fastapi>=0.95
+uvicorn[standard]>=0.20
+pydantic>=1.10
+
+# Note: `iot_simulator` imported in `generate_data.py` appears to be a local
+# module. If it's an installable package, add it here, otherwise ensure
+# `iot_simulator.py` exists in the project path.
